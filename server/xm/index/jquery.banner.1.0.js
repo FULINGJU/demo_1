@@ -126,10 +126,9 @@
             }).children("li").css({
                 width:220,
                 height:110,
-				borderRight: "1px solid #f0f0f0",
                 margin:"0 10px",
                 textAlign:"center",
-                cursor:"pointer"
+                cursor:"pointer",
             }).find(".bot").css({
 				width: "100px",
 				height: "3px",

@@ -367,3 +367,21 @@ header .bag b {
     .nav .nav-r li {
       float: left;
       padding: 0 18px; }
+
+.floor_1 .f1_b {
+  display: flex; }
+  .floor_1 .f1_b a {
+    display: block;
+    flex: 1; }
+
+.floor_2 .f2_b {
+  display: flex;
+  flex-wrap: wrap; }
+  .floor_2 .f2_b a {
+    display: block;
+    flex: 1; }
+
+.floor_3 .f3_b {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
