@@ -1,0 +1,176 @@
+html,
+body {
+  width: 100%; }
+
+* {
+  outline: none; }
+
+.margin {
+  width: 980px;
+  margin: 0 auto; }
+
+.top a {
+  display: block;
+  width: 220px;
+  height: 100px;
+  background: url(img/logo.jpg) 0 0 no-repeat; }
+
+.header {
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 2px solid #666666; }
+  .header a {
+    height: 26px;
+    margin-top: 0;
+    font-weight: bold;
+    line-height: 26px;
+    width: 160px;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-right: 3px;
+    text-align: center;
+    display: inline-block;
+    background: #666666;
+    color: #ffffff;
+    border-radius: 5px 5px 0 0; }
+
+.myreg {
+  width: 978px;
+  height: 328px;
+  border: 1px solid #999999;
+  margin: 0 auto;
+  margin-top: 10px; }
+  .myreg .myreg-l {
+    width: 758px;
+    height: 326px;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px 0 30px 15px; }
+    .myreg .myreg-l .line1 {
+      width: 700px;
+      font-size: 14px;
+      text-indent: 20px;
+      line-height: 30px;
+      margin-left: 15px;
+      border-bottom: 1px dotted #e6e6e6; }
+    .myreg .myreg-l .line2 {
+      width: 700px;
+      height: 66px;
+      padding: 10px 0 0; }
+      .myreg .myreg-l .line2 .line2_l {
+        width: 120px;
+        height: 30px;
+        width: 120px;
+        line-height: 30px;
+        font-size: 14px;
+        color: #666;
+        text-align: right;
+        float: left; }
+      .myreg .myreg-l .line2 .line2_r {
+        width: 567px;
+        height: 56px;
+        float: right; }
+        .myreg .myreg-l .line2 .line2_r input {
+          width: 242px;
+          height: 26px;
+          margin: 0 10px 0 0; }
+        .myreg .myreg-l .line2 .line2_r .tips {
+          width: 305px;
+          height: 38px;
+          display: inline-block;
+          color: #999; }
+        .myreg .myreg-l .line2 .line2_r .errorinfo {
+          height: 20px;
+          color: #f60;
+          display: block;
+          line-height: 20px; }
+    .myreg .myreg-l .line3 {
+      width: 700px;
+      height: 66px; }
+      .myreg .myreg-l .line3 .line3_l {
+        width: 120px;
+        height: 30px;
+        width: 120px;
+        line-height: 30px;
+        font-size: 14px;
+        color: #666;
+        text-align: right;
+        float: left; }
+      .myreg .myreg-l .line3 .line3_r {
+        width: 567px;
+        height: 56px;
+        float: right; }
+        .myreg .myreg-l .line3 .line3_r input {
+          width: 242px;
+          height: 26px;
+          margin: 0 10px 0 0; }
+        .myreg .myreg-l .line3 .line3_r .tips {
+          width: 305px;
+          height: 38px;
+          display: inline-block;
+          color: #999; }
+        .myreg .myreg-l .line3 .line3_r .errorinfo {
+          height: 20px;
+          color: #f60;
+          display: block;
+          line-height: 20px;
+          margin-top: -12px; }
+    .myreg .myreg-l .line4 {
+      width: 700px;
+      height: 66px; }
+      .myreg .myreg-l .line4 .line4_l {
+        width: 120px;
+        height: 30px;
+        width: 120px;
+        line-height: 30px;
+        font-size: 14px;
+        color: #666;
+        text-align: right;
+        float: left; }
+      .myreg .myreg-l .line4 .line4_r {
+        width: 310px;
+        height: 50px;
+        float: left; }
+        .myreg .myreg-l .line4 .line4_r input {
+          border: 1px solid #ababab;
+          width: 120px;
+          height: 28px;
+          line-height: 28px;
+          padding: 0 5px 0 0;
+          margin: 0 10px 0 12px; }
+        .myreg .myreg-l .line4 .line4_r .errorinfo {
+          height: 20px;
+          color: #f60;
+          display: block;
+          line-height: 20px;
+          margin-left: 12px; }
+    .myreg .myreg-l .line5 {
+      width: 700px;
+      height: 44px;
+      margin: 10px 0 0; }
+      .myreg .myreg-l .line5 .line_send {
+        display: inline-block;
+        width: 152px;
+        height: 34px;
+        line-height: 34px;
+        cursor: pointer;
+        text-align: center;
+        margin-left: 120px;
+        background: #FF0000;
+        color: white;
+        border-radius: 5px;
+        font-size: 18px;
+        font-weight: 700; }
+  .myreg .myreg-r {
+    width: 219px;
+    height: 320px;
+    float: right;
+    background: url(img/bgowelcometext.png) -2px 0 no-repeat; }
+
+.bottom {
+  width: 980px;
+  clear: both;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 20px; }
