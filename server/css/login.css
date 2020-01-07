@@ -1,0 +1,200 @@
+html,
+body {
+  width: 100%; }
+
+* {
+  outline: none; }
+
+.margin {
+  width: 980px;
+  margin: 0 auto; }
+
+.top a {
+  display: block;
+  width: 220px;
+  height: 100px;
+  background: url(../img/logo.jpg) 0 0 no-repeat; }
+
+.center .c-l {
+  float: left; }
+  .center .c-l a {
+    width: 640px;
+    height: 430px;
+    display: block;
+    background: url(../img/login_banner.jpg) 0 0 no-repeat; }
+
+.center .c-r {
+  width: 338px;
+  height: 481px;
+  float: right;
+  border: 1px solid #ccc; }
+  .center .c-r .c-t {
+    width: 340px;
+    height: 40px;
+    display: flex; }
+    .center .c-r .c-t h3 {
+      flex: 1;
+      color: #666;
+      height: 34px;
+      font-size: 14px;
+      cursor: pointer;
+      line-height: 34px;
+      text-align: center;
+      border-bottom: 1px solid #ccc;
+      border-right: 1px solid #ccc;
+      background-color: #fff; }
+
+.center .shuru .f1 {
+  width: 338px;
+  height: 50px;
+  margin-top: 30px; }
+  .center .shuru .f1 .yhm {
+    float: left;
+    width: 80px;
+    color: #666;
+    line-height: 28px;
+    font-size: 14px;
+    text-align: right;
+    margin-right: 10px; }
+  .center .shuru .f1 .user {
+    float: left;
+    border: 1px solid #ccc;
+    width: 220px;
+    height: 28px;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 5px;
+    margin: 0 10px 0 0; }
+
+.center .shuru .f2 {
+  width: 338px;
+  height: 50px; }
+  .center .shuru .f2 .denglu {
+    float: left;
+    width: 80px;
+    color: #666;
+    line-height: 28px;
+    font-size: 14px;
+    text-align: right;
+    margin-right: 10px; }
+  .center .shuru .f2 .pass {
+    float: left;
+    border: 1px solid #ccc;
+    width: 220px;
+    height: 28px;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 5px;
+    margin: 0 10px 0 0; }
+
+.center .shuru .f3 {
+  width: 338px;
+  height: 52px; }
+  .center .shuru .f3 .yzm {
+    width: 80px;
+    color: #666;
+    line-height: 28px;
+    font-size: 14px;
+    text-align: right;
+    float: left; }
+  .center .shuru .f3 .myyzm {
+    float: right;
+    width: 232px;
+    height: 28px;
+    margin-right: 15px; }
+    .center .shuru .f3 .myyzm .yzm_1 {
+      border: 1px solid #ccc;
+      width: 62px;
+      height: 28px;
+      line-height: 26px; }
+
+.center .shuru .f4 {
+  width: 338px;
+  height: 28px; }
+  .center .shuru .f4 .rem {
+    width: 220px;
+    height: 20px;
+    margin-left: 90px; }
+    .center .shuru .f4 .rem input {
+      line-height: 20px;
+      vertical-align: -3px; }
+    .center .shuru .f4 .rem .jj {
+      margin-right: 20px; }
+
+.center .shuru .f5 {
+  margin-top: 20px;
+  width: 338px;
+  height: 28px; }
+  .center .shuru .f5 .log {
+    display: inline-block;
+    width: 104px;
+    height: 34px;
+    line-height: 34px;
+    cursor: pointer;
+    background: red;
+    border-radius: 3px;
+    text-align: center;
+    margin-left: 90px; }
+    .center .shuru .f5 .log span {
+      font-size: 18px;
+      color: #ffffff; }
+  .center .shuru .f5 .look {
+    margin-left: 10px;
+    text-decoration: underline; }
+
+.center .join {
+  width: 318px;
+  height: 58px;
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+  margin-left: 10px;
+  box-sizing: border-box;
+  padding-top: 20px;
+  padding-left: 10px; }
+  .center .join .join_1 {
+    font-size: 12px; }
+  .center .join .zc {
+    display: inline-block;
+    width: 96px;
+    height: 27px;
+    line-height: 27px;
+    padding: 0 0 0 15px;
+    margin: 0;
+    cursor: pointer;
+    color: #404040;
+    border: 1px solid #b5b5b5;
+    border-radius: 3px; }
+    .center .join .zc span {
+      text-align: center;
+      cursor: pointer; }
+
+.center .pater {
+  border: 1px solid #efefef;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 94px;
+  margin-left: 20px; }
+  .center .pater h4 {
+    background: #efefef;
+    margin: 0;
+    line-height: 32px;
+    padding: 0 8px;
+    font-weight: normal; }
+  .center .pater p a {
+    cursor: pointer;
+    padding: 0;
+    border: 1px solid #efefef;
+    margin: -1px;
+    display: block;
+    float: left;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-indent: 38px; }
+
+.bottom {
+  width: 980px;
+  clear: both;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 20px; }
