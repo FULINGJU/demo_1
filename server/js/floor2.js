@@ -1,7 +1,7 @@
 class floor2 {
 	constructor() {
 		this.floor2 = document.querySelector(".f2_b");
-		this.url = "../json/floor2.json";
+		this.url = "/api";
 
 		this.load();
 	}
@@ -12,12 +12,14 @@ class floor2 {
 			that.res = JSON.parse(res)
 			// console.log(that.res);
 			that.display();
+		},{
+			file:"floor2.json"
 		})
 	}
 	display() {
 		var str = "";
 		for (var i = 0; i < this.res.length; i++) {
-			str +=`<a href="#"><img src="https://img.banggo.com/sources/cms/banggo2017/PC/jx12133s2_${i+6}.jpg"></a>`;
+			str +=`<a href="#"><img src="${this.res[i].img}"></a>`;
 		}
 		this.floor2.innerHTML = str;
 	}

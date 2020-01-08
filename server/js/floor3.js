@@ -1,17 +1,23 @@
 class List {
 	constructor() {
 		this.floor3 = document.querySelector(".f3_b");
-		this.url = "../json/floor3.json";
+		this.url = "/api";
 
 		this.load();
 	}
 
 	load() {
 		var that = this;
+		// ajaxGet(参数1,参数2,参数3)
+		// 参数1:url地址
+		// 参数2:回调函数
+		// 参数3:data数据
 		ajaxGet(this.url, function(res) {
 			that.res = JSON.parse(res)
 			// console.log(that.res);
 			that.display();	
+		},{
+			file:"floor3.json"
 		})
 	}
 	display() {
@@ -28,41 +34,7 @@ class List {
 		}
 		this.floor3.innerHTML = str;
 	}
-	//     setCookie(){
-	//         // console.log(this.id)
-	//         // [{id:13213,num:2},{},{}]
-	//         // 存cookie
-	//         // 怎么存？区分存之前的状态
-	//         // console.log(getCookie("goodsMsg"))
 
-	//         this.goods = getCookie("goodsMsg") ? JSON.parse(getCookie("goodsMsg")) : [];
-
-	//         // 怎么判断是不是第一次
-	//         if(this.goods.length < 1){
-	//             // 第一次点击商品
-	//             this.goods.push({
-	//                 id:this.id,
-	//                 num:1
-	//             })
-	//         }else{
-	//             var i = 0;
-	//             var onoff = this.goods.some((val,idx)=>{
-	//                 i = idx;
-	//                 return val.id == this.id;
-	//             })
-
-	//             if(!onoff){
-	//                 this.goods.push({
-	//                     id:this.id,
-	//                     num:1
-	//                 })
-	//             }else{
-	//                 this.goods[i].num++;
-	//             }
-
-	//         }
-	//         setCookie("goodsMsg",JSON.stringify(this.goods));
-	//     }
 }
 
 new List();

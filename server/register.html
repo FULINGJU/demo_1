@@ -5,8 +5,6 @@
 		<title>会员注册</title>
 		<link rel="stylesheet" href="css/register.css" />
 		<link rel="stylesheet" href="public.css" />
-		<script src="jquery-1.11.3.js"></script>
-		<script src="register.js"></script>
 	</head>
 	<body>
 		<div class="top">
@@ -19,50 +17,50 @@
 		<div class="header">
 			<div class="margin">
 				<div class="Cwrap Lovh" id="changetab">
-					<a id="mobile" class="cstyle">手机注册</a>
+					<a id="mobile" class="cstyle">账号注册</a>
 				</div>
 			</div>
 		</div>
 		<div class="myreg">
 			<div class="margin">
 				<div class="myreg-l">
-					<div class="line1">第一步：填写手机账户信息（以下内容均为必填）</div>
+					<div class="line1">第一步：填写账户信息（以下内容均为必填）</div>
 					<div class="line2">
 						<div class="line2_l">用户名</div>
 						<div class="line2_r">
-							<input type="text" class="line_p" />
+							<input type="text" class="line_u" />
 							<span class="tips">4-20个字符，一个汉字为两个字符，推荐使用中文会会员名字。一旦注册成功会员名将不能修改。</span>
 							<span class="errorinfo">
-								<font>用户名不能为空</font>
+								<font  class="user_f">用户名不能为空</font>
 							</span>
 						</div>
 					</div>
 					<div class="line3">
-						<div class="line3_l">手机号码</div>
+						<div class="line3_l">密码</div>
 						<div class="line3_r">
-							<input type="text" class="line_p" />
-							<span class="tips">请输入您的手机号码</span>
+							<input type="password" class="line_p" />
+							<span class="tips">请输入您的密码</span>
 							<span class="errorinfo">
-								<font>手机号码不能为空</font>
+								<font class="pass_f">密码不能为空</font>
 							</span>
 						</div>
 					</div>
 					<div class="line4">
 						<div class="line4_l">验证码</div>
 						<div class="line4_r">
-							<input type="text" class="line_p" />
-							<span class="yzm">
-								<img src="https://passport.banggo.com:443/CASServer//custom/loginCode.do?time=1578123311341">
-								<a onclick="changeImg('img2')">换一张</a>
-							</span>
-							<span id="img2_message" class="errorinfo">
-								<font color="red">验证码不能为空</font>
-							</span>
+							<input type="text" class="line_y" />
+							<div class="yzm">
+								<span class="suiji"></span>
+								<a class="changeyzm">换一张</a>
+							</div>
+							<div id="img2_message" class="errorinfo">
+								<font color="red" class="yzmk">验证码不能为空</font>
+							</div>
 						</div>
 					</div>
 					<div class="line5">
 						<a href="#" class="line_send">
-							<span class="line_send_s">发送激活码</span>
+							<span class="line_send_s">注册</span>
 						</a>
 					</div>
 				</div>
@@ -78,4 +76,6 @@
 			<a href="javascript:;">邦购网</a>
 		</div>
 	</body>
+	<script src="js/jquery-1.11.3.js"></script>
+	<script src="js/register.js"></script>
 </html>

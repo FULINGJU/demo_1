@@ -139,12 +139,38 @@ body {
           line-height: 28px;
           padding: 0 5px 0 0;
           margin: 0 10px 0 12px; }
+        .myreg .myreg-l .line4 .line4_r .yzm {
+          width: 150px;
+          height: 30px;
+          float: left; }
+          .myreg .myreg-l .line4 .line4_r .yzm a {
+            display: block;
+            float: left;
+            margin-left: 10px;
+            line-height: 30px; }
+          .myreg .myreg-l .line4 .line4_r .yzm .suiji {
+            display: inline-block;
+            width: 40px;
+            height: 28px;
+            border: 1px solid #999999;
+            float: left;
+            font-size: 16px;
+            text-align: center;
+            line-height: 28px;
+            background: yellow; }
+        .myreg .myreg-l .line4 .line4_r .img2_message {
+          float: left; }
         .myreg .myreg-l .line4 .line4_r .errorinfo {
           height: 20px;
           color: #f60;
           display: block;
           line-height: 20px;
           margin-left: 12px; }
+        .myreg .myreg-l .line4 .line4_r .line_y {
+          float: left; }
+        .myreg .myreg-l .line4 .line4_r .changeyzm {
+          cursor: pointer;
+          font-size: 16px; }
     .myreg .myreg-l .line5 {
       width: 700px;
       height: 44px;

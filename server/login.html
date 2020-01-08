@@ -5,8 +5,6 @@
 		<title>会员登录</title>
 		<link rel="stylesheet" href="public.css" />
 		<link rel="stylesheet" href="css/login.css" />
-		<script src="../js/jquery-1.11.3.js"></script>
-		<script src="../js/login.js"></script>
 	</head>
 	<body>
 		<div class="top">
@@ -31,17 +29,26 @@
 						<div class="f1">
 							<div class="yhm">用户名:</div>
 							<input type="text" class="user" />
+							<div class="u">
+								<font style="color: red;" class="user_f">用户名不能为空</font>
+							</div>
 						</div>
 						<div class="f2">
 							<div class="denglu">登录密码:</div>
 							<input type="password" class="pass" />
+							<div class="p">
+								<font style="color: red;" class="pass_f">密码不能为空</font>
+							</div>
 						</div>
 						<div class="f3">
 							<div class="yzm">验证码:</div>
 							<div class="myyzm">
 								<input type="text" class="yzm_1" />
-								<img src="https://passport.banggo.com:443/CASServer//custom/loginCode.do?time=1578053938503" />
-								<a onclick="changeImg('img1')">换一张</a>
+								<div class="suiji"></div>
+								<a class="changeyzm">换一张</a>
+								<div class="y">
+									<font style="color: red;" class="yzmk">验证码不能为空</font>
+								</div>
 							</div>
 						</div>
 						<div class="f4">
@@ -54,7 +61,7 @@
 						</div>
 						<div class="f5">
 							<a href="#" class="log">
-								<span>登录</span>
+								<span class="btn">登录</span>
 							</a>
 							<a href="#" class="look">找回密码？</a>	
 		
@@ -62,8 +69,8 @@
 					</div>
 					<div class="join">
 						<span class="join_1">还不是邦购网用户？马上加入吧~~~</span>
-						<a href="#" class="zc">
-							<span>免费注册>></span>
+						<a href="register.html" class="zc">
+							<span>免费注册&gt;&gt;</span>
 						</a>
 					</div>
 					<div class="pater">
@@ -86,4 +93,6 @@
 			<a href="javascript:;">邦购网</a>
 		</div>
 	</body>
+	<script src="../js/jquery-1.11.3.js"></script>
+	<script src="../js/login.js"></script>
 </html>

@@ -36,6 +36,7 @@ function Loupe() {
 			//span移动的距离
 			var l = e.clientX - this.loup.offsetLeft - this.span.offsetWidth / 2;
 			var t = e.clientY - this.loup.offsetTop - this.span.offsetHeight / 2;
+
 			// 限制边界
 			if (l < 0) l = 0;
 			if (t < 0) t = 0;
