@@ -1,0 +1,102 @@
+html,
+body {
+  width: 100%; }
+
+* {
+  outline: none; }
+
+.margin {
+  width: 1200px;
+  margin: 0 auto; }
+
+#top {
+  height: 32px;
+  border-bottom: 1px solid #dcdcdc; }
+
+#top .topleft {
+  width: 640px;
+  float: left;
+  color: #999;
+  font-size: 12px;
+  line-height: 32px; }
+
+#top .topright {
+  width: 417px;
+  height: 30px;
+  float: right;
+  font-size: 12px;
+  color: #999;
+  line-height: 32px;
+  display: flex; }
+
+#top .topright .login,
+.zhuce,
+.my,
+.huiyuan,
+.down,
+.wbo,
+.wx {
+  flex: auto;
+  display: block; }
+
+#top .topright .login_box a {
+  display: block;
+  text-align: center; }
+
+#top .topright .my_box a {
+  display: block;
+  text-align: center; }
+
+#top .topright .login {
+  position: relative; }
+
+#top .topright .app {
+  display: none;
+  position: absolute; }
+
+#top .topright .wechat {
+  display: none;
+  position: absolute;
+  left: -80px; }
+
+#top .topright .login_box {
+  display: none;
+  width: 80px;
+  height: auto;
+  position: absolute;
+  top: 32px;
+  left: -30px;
+  border: 1px solid #b5b5b5;
+  background: #ffffff; }
+
+#top .topright .login:hover .login_box {
+  display: block; }
+
+#top .topright .my {
+  position: relative; }
+
+#top .topright .my_box {
+  position: absolute;
+  display: none;
+  width: 70px;
+  border: 1px solid #b5b5b5;
+  left: -10px; }
+
+#top .topright .my:hover .my_box {
+  display: block; }
+
+#top .topright .down {
+  position: relative; }
+
+#top .topright .down:hover .app {
+  display: block; }
+
+#top .topright .wx {
+  position: relative; }
+
+#top .topright .wx:hover .wechat {
+  display: block; }
+
+header {
+  height: 90px;
+  border-bottom: 1px solid #ABABAB; }

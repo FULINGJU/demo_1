@@ -368,20 +368,55 @@ header .bag b {
       float: left;
       padding: 0 18px; }
 
-.floor_1 .f1_b {
-  display: flex; }
-  .floor_1 .f1_b a {
-    display: block;
-    flex: 1; }
+.search .s-t {
+  height: 50px;
+  background: yellow;
+  margin-top: 20px;
+  border: 1px solid #999999; }
 
-.floor_2 .f2_b {
+.search .s-c {
+  height: 30px;
   display: flex;
-  flex-wrap: wrap; }
-  .floor_2 .f2_b a {
-    display: block;
-    flex: 1; }
+  justify-content: space-between;
+  background: #f0f0f0; }
+  .search .s-c .s-c-l {
+    width: 420px; }
+    .search .s-c .s-c-l a {
+      width: auto;
+      height: auto;
+      float: left;
+      display: block;
+      border-right: 2px #fff solid;
+      margin: 0;
+      padding: 10px 25px; }
+  .search .s-c .s-c-r {
+    width: 409px; }
 
-.floor_3 .f3_b {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between; }
+.search .s-b {
+  height: auto; }
+  .search .s-b ul {
+    width: 100%; }
+    .search .s-b ul li {
+      float: left;
+      width: 230px;
+      height: 427px;
+      margin-top: 15px;
+      margin-right: 10px; }
+      .search .s-b ul li img {
+        width: 230px;
+        height: 315px; }
+      .search .s-b ul li span {
+        margin-top: 10px;
+        display: block; }
+        .search .s-b ul li span .prn {
+          font-size: 16px;
+          font-weight: 700; }
+        .search .s-b ul li span .pro {
+          font-size: 14px;
+          color: black;
+          display: block;
+          height: 48px; }
+        .search .s-b ul li span b {
+          font-size: 14px;
+          color: red;
+          font-weight: 900; }
