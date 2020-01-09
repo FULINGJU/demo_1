@@ -385,3 +385,22 @@ header .bag b {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between; }
+  .floor_3 .f3_b .goods_box {
+    margin-top: 10px; }
+
+.maodian {
+  width: 75px;
+  text-align: center;
+  background: red;
+  position: fixed;
+  right: 0;
+  top: 177px; }
+  .maodian ul li {
+    border-bottom: 2px solid white;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+    display: block;
+    cursor: pointer; }

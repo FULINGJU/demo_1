@@ -27,7 +27,8 @@ body {
   float: right;
   font-size: 12px;
   color: #999;
-  line-height: 32px; }
+  line-height: 32px;
+  display: flex; }
 
 #top .topright .login,
 .zhuce,
@@ -36,8 +37,7 @@ body {
 .down,
 .wbo,
 .wx {
-  float: left;
-  margin-right: 26px;
+  flex: auto;
   display: block; }
 
 #top .topright .login_box a {

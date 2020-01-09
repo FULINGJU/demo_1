@@ -3,6 +3,7 @@ class Account {
 		this.login = document.querySelector(".login");
 		this.login_1 = document.querySelector(".login_l");
 		this.login_box = document.querySelector(".login_box");
+		this.bag = document.querySelector(".bag");
 		this.getInfo();
 	}
 	getInfo() {
@@ -19,6 +20,7 @@ class Account {
 		if (this.on) {
 			this.login.innerHTML = 	`<a class="login_l" style="color:red;">${this.msg[this.i].user}</a>
 									<span class="out" style="cursor: pointer;">[退出]</span>`;	
+			this.bag.innerHTML = `<a href="car.html">购物袋<b>0</b>件</a>`;	
 			this.addEvent();
 		}
 	}
@@ -30,7 +32,7 @@ class Account {
 		this.out.onclick = function(){
 			that.msg[that.i].onoff = 0;
 			localStorage.setItem("userMsg",JSON.stringify(that.msg));
-			location.reload();
+			location.href = "login.html";
 		}
 	}
 }

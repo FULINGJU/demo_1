@@ -1,0 +1,9 @@
+class Joincar{
+	constructor() {
+	    
+	}
+	
+	addEvent(){
+		
+	}
+}

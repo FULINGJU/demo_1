@@ -99,4 +99,124 @@ body {
 
 header {
   height: 90px;
-  border-bottom: 1px solid #ABABAB; }
+  border-bottom: 1px solid #ababab; }
+
+.title {
+  height: 42px;
+  font-size: 18px;
+  line-height: 42px;
+  font-weight: 700;
+  margin-top: 15px; }
+
+.info {
+  margin-top: 20px;
+  height: 40px; }
+  .info ul {
+    background: #f8f7f7;
+    height: 40px; }
+    .info ul li {
+      float: left;
+      height: 40px;
+      line-height: 40px;
+      font-size: 12px; }
+      .info ul li .checkall {
+        width: 20px;
+        height: 20px;
+        vertical-align: middle; }
+
+.bag_1 .margin {
+  margin-top: 20px;
+  border: 1px solid #ababab; }
+  .bag_1 .margin ul {
+    padding: 20px 0px;
+    height: 120px;
+    border-bottom: 1px solid #C7C7C7; }
+    .bag_1 .margin ul li {
+      float: left;
+      height: 80px; }
+      .bag_1 .margin ul li input {
+        width: 20px;
+        height: 20px;
+        margin-top: 33px;
+        margin-left: 10px; }
+      .bag_1 .margin ul li dt {
+        float: left;
+        width: 78px;
+        height: 78px;
+        border: 1px solid #eaeaea; }
+      .bag_1 .margin ul li dd {
+        width: 206px;
+        height: auto;
+        float: left;
+        padding-left: 10px;
+        box-sizing: border-box;
+        font-size: 12px; }
+        .bag_1 .margin ul li dd p {
+          font-size: 16px;
+          overflow: hidden; }
+      .bag_1 .margin ul li i {
+        display: block;
+        font-style: normal;
+        color: #ccc; }
+      .bag_1 .margin ul li em {
+        display: block;
+        font-size: 20px;
+        margin: 20px 0 0 50px; }
+      .bag_1 .margin ul li .left, .bag_1 .margin ul li .right {
+        display: block;
+        float: left;
+        border: 1px solid #ccc;
+        width: 16px;
+        height: 23px;
+        text-align: center;
+        line-height: 23px;
+        background: #f0f0f0;
+        margin-top: 20px;
+        cursor: pointer;
+        margin-left: 60px; }
+      .bag_1 .margin ul li .number {
+        float: left;
+        width: 52px;
+        height: 21px;
+        margin-top: 20px;
+        margin-left: 0;
+        text-align: center; }
+      .bag_1 .margin ul li .right {
+        margin-left: 0; }
+      .bag_1 .margin ul li .delete_goods {
+        width: 60px;
+        height: 40px;
+        display: block;
+        margin-top: 10px;
+        line-height: 40px;
+        text-align: center;
+        margin-left: 30px;
+        font-size: 16px;
+        background: red;
+        border-radius: 5px; }
+    .bag_1 .margin ul .li3 p {
+      display: block;
+      line-height: 15px;
+      text-align: left;
+      padding-left: 50px;
+      box-sizing: border-box;
+      margin-top: 10px; }
+
+.bottom {
+  margin-top: 20px;
+  height: 40px; }
+  .bottom ul {
+    background: #f8f7f7;
+    height: 40px;
+    display: flex;
+    justify-content: space-between; }
+    .bottom ul li {
+      line-height: 40px;
+      flex: auto; }
+      .bottom ul li input {
+        width: 30px;
+        height: 30px;
+        vertical-align: middle; }
+      .bottom ul li .go {
+        font-size: 18px;
+        color: red; }

@@ -19,6 +19,9 @@ function Loupe() {
 				// move的过程中需要获取坐标，所以要传参到方法中
 				that.move(e);
 			}
+			
+
+			
 		}
 		Loupe.prototype.show = function() {
 			this.span.style.display = "block";
@@ -34,9 +37,12 @@ function Loupe() {
 		}
 		Loupe.prototype.move = function(e) {
 			//span移动的距离
+			
+			
 			var l = e.clientX - this.loup.offsetLeft - this.span.offsetWidth / 2;
-			var t = e.clientY - this.loup.offsetTop - this.span.offsetHeight / 2;
-
+			var t = e.clientY - this.span.offsetHeight / 2;
+			// console.log(this.loup.offsetTop,this.span.offsetHeight);
+			
 			// 限制边界
 			if (l < 0) l = 0;
 			if (t < 0) t = 0;

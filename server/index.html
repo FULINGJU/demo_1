@@ -8,7 +8,7 @@
 	</head>
 	<body>
 		<!-- 头部 -->
-		<div id="top">
+		<div id="top" class="box1">
 			<div class="margin">
 				<div class="topleft">
 					<p>欢迎来到邦购网，全场实付满99元包邮，本网站多为断码限量商品，支持14天无理由退换货，不支持退差价，感谢理解。</p>
@@ -54,7 +54,7 @@
 		</div>
 
 		<!-- 搜索框 -->
-		<header>
+		<header class="box1">
 			<div class="margin">
 				<a href="#" class="log"><img src="img/logo.png"></a>
 				<div class="search">
@@ -79,7 +79,7 @@
 		</header>
 
 		<!-- 导航 -->
-		<div class="nav">
+		<div class="nav box1" id="nav_m">
 			<div class="margin">
 				<ul class="nav-l">
 					<li>
@@ -283,7 +283,7 @@
 		</div>
 
 		<!-- 楼层1 -->
-		<div class="floor_1">
+		<div class="floor_1 box1" id="floor1_m">
 			<div class="margin">
 				<div class="f1_t">
 					<a href="#"><img src="https://img.banggo.com/sources/cms/banggo2017/PC/jx12133s2_1.jpg"></a>
@@ -294,7 +294,7 @@
 		</div>
 
 		<!-- 楼层2 -->
-		<div class="floor_2">
+		<div class="floor_2 box1" id="floor2_m">
 			<div class="margin">
 				<div class="f2_t">
 					<a href="#"><img src="https://img.banggo.com/sources/cms/banggo2017/PC/jx12133s2_5.jpg"></a>
@@ -305,34 +305,41 @@
 		</div>
 
 		<!-- 楼层3 -->
-		<div class="floor_3">
+		<div class="floor_3 box1" id="floor3_m">
 			<div class="margin">
 				<div class="f3_t">
 					<a href="#"><img src="https://img.banggo.com/sources/cms/banggo2017/PC/80319jrtm.jpg"></a>
 				</div>
 				<div class="f3_b">
 					<!-- 230x325 -->
+<!-- 					<div class="goods_box" style="width: 230px;height: 325px; background:#EFEFEF;">
+						<a href="##"><img src="${this.res[i].img}" style="width:230px;height:230px"></a>
+						<<b> class="goodsId" style="margin-left: 15px;">${this.res[i].goodsId}</b>
+						<a href="##" class="brand" style="display: block;font-size: 16px; margin: 10px 0 0 15px;">${this.res[i].brand}</a>				
+						<a href="##" class="describe" style="display: block;font-size: 16px;margin:10px 0 0 15px;">${this.res[i].describe}</a>
+						<span class="price" style=" display: block;color: red;font-size: 16px;font-weight: 700;  margin: 8px 16px 0;">￥${this.res[i].price}</span>
+					</div> -->
 				</div>
 			</div>
 		</div>
-		
-<!-- 		<div class="other">
-			<div class="margin">
-				<ul>
-					<li><a href="#"><img href="https://s.banggo.com/pub7/images/mbshop/20150720/zyshare01.png"></a></li>
-					<li><a href="#"><img href="https://s.banggo.com/pub7/images/mbshop/20150720/zyshare01.png"></a></li>
-					<li><a href="#"><img href="https://s.banggo.com/pub7/images/mbshop/20150720/zyshare01.png"></a></li>
-				</ul>
-			</div>
-		</div> -->
+		<div class="maodian">
+			<ul class="list_f">
+				<li>TOP</li>
+				<li>search</li>
+				<li>导航栏</li>
+				<li>floor1</li>
+				<li>floor2</li>
+				<li>floor3</li>
+			</ul>
+		</div>
+
 	</body>
 	<script src="js/jquery-1.11.3.js"></script>
 	<script src="js/jquery.banner.1.0.js"></script>
 	<script src="js/ajax.js"></script>
-	<script src="js/nav.js"></script>
 	<script src="js/banner.js"></script>
-	<script src="js/floor1.js"></script>
-	<script src="js/floor2.js"></script>
-	<script src="js/floor3.js"></script>
 	<script src="js/index-account.js"></script>
+	<script src="js/cookie.js"></script>
+	<script src="js/s_cookie.js"></script>
+	<script src="js/getgoodid.js"></script>
 </html>
